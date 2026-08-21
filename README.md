@@ -68,7 +68,7 @@ python -m scgame.simulator.single_region.run
 
 The Network Run dashboard shows all three production systems, regional demand and shortfalls, the running profit and loss, and the bot's own reasoning as it decides.
 
-![The Network Run terminal dashboard at day 1243](docs/images/network-dashboard.svg)
+![The Network Run terminal dashboard at day 1243](docs/images/network-dashboard.png)
 
 Closing the dashboard opens twelve analysis screens covering the network, each system, each region, shipping, cross-fulfilment, and total inventory.
 
