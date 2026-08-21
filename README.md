@@ -280,6 +280,8 @@ The figures in the results table at the top of this page are the actual game res
 
 ## Licence
 
-MIT. See [LICENSE](LICENSE).
+GNU General Public License v3.0. See [LICENSE](LICENSE).
 
-The coursework report and presentation in `docs/` are academic work submitted for CIVE70108 at Imperial College London and remain the property of their authors.
+Copyright (C) 2026 Kilian Schwarz. This program is free software. You may redistribute it and modify it under the terms of the GPL as published by the Free Software Foundation, either version 3 of the licence or, at your option, any later version. It is distributed without any warranty, and without even the implied warranty of merchantability or fitness for a particular purpose.
+
+The coursework report and presentation in `docs/` are academic work submitted for CIVE70108 at Imperial College London by all eight members of Group 4. They are not covered by the licence above and remain the property of their authors.
