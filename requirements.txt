@@ -1,0 +1,20 @@
+# Pinned to the versions this project is tested against.
+# Verified by running both simulators end to end on Python 3.13.
+
+# Browser automation, needed only for the live game controllers
+selenium==4.47.0
+webdriver-manager==4.1.2
+
+# Data handling and forecasting
+pandas==3.0.5
+numpy==2.5.2
+scipy==1.18.0
+statsmodels==0.14.6
+openpyxl==3.1.5
+
+# Terminal dashboard and analysis charts
+rich==15.0.0
+matplotlib==3.11.1
+
+# Discord notifications from the deployed bot
+requests==2.34.2

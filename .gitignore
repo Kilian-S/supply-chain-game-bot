@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE and editor state
+.idea/
+.vscode/
+*.swp
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Secrets. Credentials belong in the environment, never in the repository.
+.env
+.env.local
+
+# Run output
+*.log
+decision_log.csv
+.pytest_cache/

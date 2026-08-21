@@ -1,0 +1,32 @@
+[Unit]
+Description=Supply Chain Game Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/G4_automation
+ExecStart=/home/ubuntu/G4_automation/venv/bin/python3 main.py
+Restart=on-failure
+RestartSec=30
+StandardOutput=journal
+StandardError=journal
+
+# Environment variables for headless Chrome stability
+Environment="DISPLAY=:99"
+Environment="DBUS_SESSION_BUS_ADDRESS=/dev/null"
+
+# Memory limit (t3.small has 2GB - leave headroom for system)
+MemoryMax=1500M
+MemoryHigh=1200M
+
+# Hardening
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/home/ubuntu/G4_automation
+ReadWritePaths=/tmp
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
