@@ -1,4 +1,4 @@
-# Supply Chain Game Bot
+# Supply Chain Autopilot
 
 Two autonomous bots that played the Imperial College Supply Chain Game, a competitive discrete-event simulation of a chemical drum supply chain running over a simulated four-year horizon. The bots scraped the game's web interface, forecast regional demand, sized production and inventory, and wrote the resulting settings back to the game once per simulated day, unattended, for the full length of each run.
 

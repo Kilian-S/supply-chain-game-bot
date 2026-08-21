@@ -1,5 +1,5 @@
 [Unit]
-Description=Supply Chain Game Bot
+Description=Supply Chain Autopilot
 After=network-online.target
 Wants=network-online.target
 
